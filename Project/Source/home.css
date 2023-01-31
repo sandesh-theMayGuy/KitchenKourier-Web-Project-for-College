@@ -187,7 +187,14 @@ div.why_us_images span{
  
   }
 
+  div.mobile_content{
+    display: none;
+  }
 
+
+  div.mobile_content img{
+    width: 100%;
+  }
 
 
 
@@ -303,11 +310,38 @@ div.why_us_images{
 
 
 @media screen and (max-width:400px) {
+  /* img#img1{
     
+    /* size: contain; */
+    /* width: 60%; */
+    
+    /* min-width: 600px; */
+    /* margin-right: 5px; */
+    /* position:relative; */
+    /* left: 15%; */
+    /* left: 10%; */
+/* } */ 
+
+
+
+div.mobile_content{
+  display: block;
+}
+
+button#menu{
+  margin-right: 20px;
+}
+
+
+
+
+
+
+/*     
 div.for_mobile{
     
     display: block;
-}
+} */
 
 div.why_us_images{
    flex-direction: column;
