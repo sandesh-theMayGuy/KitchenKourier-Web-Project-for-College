@@ -319,17 +319,19 @@ div.why_us_images span{
 
 .slider img  {
     /* width: 300%; */
-    height: 150px;
+    height: 300px;
     width: 100%;
     /* width: max-content; */
   }
 .slider-container {
-    width: 70%;
+    width: 100%;
   }
 
   div.client_review{
     position:static;
     margin-top: 100px;
+    width: 100%;
+    height: 400px;
   }
 
 /* 
