@@ -1,10 +1,11 @@
 const menuButton = document.getElementById("menu");
 const menuItems = document.getElementById("menu_items");
-const divForMobile = document.getElementById("mobile")
+// const divForMobile = document.getElementById("mobile")
 
 const whyUs = document.getElementById("why_us");
 const navbar = document.getElementById("nav");
 const footer = document.getElementById("footer");
+const mobileContent = document.getElementById("mobile_content");
 
 
 menuButton.addEventListener("click",function(){
@@ -14,7 +15,8 @@ menuButton.addEventListener("click",function(){
     if(menuItems.style.display=="none"){
     menuItems.style.display = "block";
     document.body.style.backgroundColor = "green";
-    divForMobile.style.visibility = "hidden";
+    // divForMobile.style.visibility = "hidden";
+    mobileContent.style.visibility = "hidden";
     whyUs.style.visibility = "hidden";
     document.body.style.overflowY = "hidden" 
     
@@ -23,8 +25,10 @@ menuButton.addEventListener("click",function(){
     else{
         menuItems.style.display = "none";
         document.body.style.backgroundColor = "white"
-    divForMobile.style.visibility = "visible"
+    // divForMobile.style.visibility = "visible"
     whyUs.style.visibility = "visible";
+    mobileContent.style.visibility = "visible";
+
     document.body.style.overflowY = "scroll"
 
 
