@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+div.nav{
+    height:60px;
+    position: sticky;
+    top:0px;
+    z-index: 1;
+    
+    background-color:#e2ebe2;
+}
+
+
+div.nav ul li a img{
+    height:110px;
+    margin-top:-20px;
+}
+
+div.nav ul li{
+    list-style-type: none;
+}
+
+div#trademark_text{
+    font-size: 20px;
+    font-weight: bolder;
+    color:green;
+    margin-left:40%;
+    margin-top:-23px;
+    position:relative;
+    bottom:60px;
+    font-variant: small-caps;
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif */
+}
+
+/* Style the dropdown button */
+.dropbtn {
+    background-color: green;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-left: 90%;
+    margin-top:-90px;
+    font-weight: bolder;
+    border-radius: 10px;
+  }
+  
+  /* Style the dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    margin-left:90%;
+  }
+  
+  /* Style links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+  a#log_out:hover{
+    color:red;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  div#order_form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  img#sender_img , img#receiver_img{
+    height:90px;
+   
+    margin-bottom:20px;
+  }
+
+  form{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+  }
+
+  input , select{
+    height: 50px;
+    width: 400px;
+    /* outline: none; */
+    font-size: 20px;
+ 
+    border-radius: 5px;
+    background-color: #d6eed56b;
+    text-align: center;
+  }
+
+  input[type="submit"]{
+    background-color: green;
+    color:white;
+    font-weight: bolder;
+    border: none;
+    font-size: 25px;
+ 
+  }
+
+  
+  input:focus{
+    background-color: #a0df9d6b;
+  }
+  
+
+  input[type="submit"]:hover{
+    cursor:pointer;
+    background-color: rgb(1, 104, 1);
+
+  }
+  
+  img.location_img{
+    height:50px;
+  }
+
+
+
+
+div.footer{
+    background-color: green;
+    height: 60px;
+    padding-top: 10px;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+    background-color: green;
+    color:white;
+   
+
+
+    
+
+}
