@@ -1,0 +1,87 @@
+
+
+div.footer{
+    /* margin-top: 50%; */
+}
+
+
+.title{
+    text-align: center;
+    margin-top: 20px;
+}
+
+div.steps{
+    margin-left: 34%;
+    margin-top: 40px;
+}
+div.steps div{
+    display: inline-block;
+    background-color: green;
+    width: 10%;
+    height: 90px;
+    border-radius: 60%;
+    text-align: center;
+    /* padding-top: 20px; */
+    font-size: 80px;
+    margin-left: 5%;
+    color: white;
+
+}
+
+div.steps div#two , div.steps div#one{
+    background-color: #fde5e5;
+}
+
+
+div.join-us img{
+    margin-left: 7%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* opacity: 0.9; */
+ 
+    border-radius: 20px;
+    
+   }
+
+
+   div.next{
+    background-color: green;
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+    border-radius: 20px;
+    height: 40px;
+    padding-top: 0.2%;
+    margin-top: 20px;
+
+    
+    
+
+
+}
+
+div.next:hover{
+    background-color: rgb(3, 72, 3);
+    cursor: pointer;
+    /* padding-left: 1%; */
+    
+}
+
+    /* a{
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+        font-weight: bolder;
+        
+    } */
+/* 
+div.form input{
+    margin-top: 50px;
+    font-size: 20px;
+    margin-left: 6%;
+} */
+
+h1#title{
+    margin-top: 40px;
+    font-size: 30px;
+}
