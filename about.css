@@ -1,0 +1,78 @@
+li#about a{
+    color: green;
+}
+
+
+div.main div.about_content{
+    /* background-color: green;  */
+    width: 50%;
+    display: inline-block;
+    /* position: relative; */
+    /* top:5%; */
+    /* float: right;
+    margin-top: 150px;
+    margin-right: 10%; */
+    margin-top: 150px;
+
+    /* position: relative;
+    bottom: 200px;
+    
+    height: 500px; */
+}
+
+div.about_content span{
+    font-size: 30px;
+}
+
+
+
+div.footer{
+    /* margin-top: 20px; */
+}
+
+
+
+div#how_to{
+    /* background-color: red; */
+    width: 100%;
+    /* height: 800px; */
+    /* background-color: red; */
+    margin-top: 200px;
+  
+}
+
+div#how_to h1{
+    /* text-align: center; */
+    /* margin-left: 20%; */
+    margin-bottom: 20px;
+    margin-left: 40%;
+    
+}
+
+#how_to_image{
+    /* margin-left: 20%; */
+    height: 600px;
+    margin-left: 35%;
+    
+
+}
+
+img#poster{
+    /* display: inline-block; */
+    height: 500px;
+    width: 30%;
+    min-width: 300px;
+    margin-left: 5%;
+    float: left;
+    
+   
+}
+
+
+@media screen and (min-width:400px) {
+    div.footer{
+      min-width: 1300px;
+  
+    }
+  }
+
